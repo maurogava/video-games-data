@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/video-games-data/static/css/main.55301dda.chunk.css",
+    "main.js": "/video-games-data/static/js/main.e3ed3c02.chunk.js",
+    "main.js.map": "/video-games-data/static/js/main.e3ed3c02.chunk.js.map",
+    "runtime-main.js": "/video-games-data/static/js/runtime-main.7da20c2e.js",
+    "runtime-main.js.map": "/video-games-data/static/js/runtime-main.7da20c2e.js.map",
+    "static/js/2.e8965156.chunk.js": "/video-games-data/static/js/2.e8965156.chunk.js",
+    "static/js/2.e8965156.chunk.js.map": "/video-games-data/static/js/2.e8965156.chunk.js.map",
+    "static/css/3.4d1fc529.chunk.css": "/video-games-data/static/css/3.4d1fc529.chunk.css",
+    "static/js/3.c66befb5.chunk.js": "/video-games-data/static/js/3.c66befb5.chunk.js",
+    "static/js/3.c66befb5.chunk.js.map": "/video-games-data/static/js/3.c66befb5.chunk.js.map",
+    "static/js/4.612e0b1a.chunk.js": "/video-games-data/static/js/4.612e0b1a.chunk.js",
+    "static/js/4.612e0b1a.chunk.js.map": "/video-games-data/static/js/4.612e0b1a.chunk.js.map",
+    "index.html": "/video-games-data/index.html",
+    "static/css/3.4d1fc529.chunk.css.map": "/video-games-data/static/css/3.4d1fc529.chunk.css.map",
+    "static/css/main.55301dda.chunk.css.map": "/video-games-data/static/css/main.55301dda.chunk.css.map",
+    "static/js/2.e8965156.chunk.js.LICENSE.txt": "/video-games-data/static/js/2.e8965156.chunk.js.LICENSE.txt",
+    "static/media/tromzo-logo.26a34c9e.svg": "/video-games-data/static/media/tromzo-logo.26a34c9e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7da20c2e.js",
+    "static/js/2.e8965156.chunk.js",
+    "static/css/main.55301dda.chunk.css",
+    "static/js/main.e3ed3c02.chunk.js"
+  ]
+}
