@@ -1,5 +1,6 @@
 # Video Game Exercise
 
+Note that I created a Table component which can be used n times and is easily configurable, you can configure which columns are shown, the order, the size, etc. The sort can be enabled in any column and it works alphabetically and for numbers.
 I din't use any UI framework like Bootstrap or MUI so you can evaluate my knowledge without having those components as base, which makes some things simpler. Nevertheless this is just a challenge with room for improvements and I think those improvements are out of the scope of this assignment.
 
 ### **Note**:
