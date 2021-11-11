@@ -11,7 +11,7 @@ const Home = lazy(() => import('pages/Home'))
 const App: FC = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <Router>
+      <Router basename="/video-games-data">
         <Layout>
           <Suspense fallback={<Loading />}>
             <Routes>
