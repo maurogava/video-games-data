@@ -1,8 +1,10 @@
-# Tromzo Challenge
+# Video Game Exercise
 
 I din't use any UI framework like Bootstrap or MUI so you can evaluate my knowledge without having those components as base, which makes some things simpler. Nevertheless this is just a challenge with room for improvements and I think those improvements are out of the scope of this assignment.
 
-### _Note_: The `release_year` field is not available in the provided endpoint, so I didn't include it.
+### **Note**:
+
+The `release_year` field is not available in the provided endpoint, so I didn't include it.
 
 ## Available Scripts
 
