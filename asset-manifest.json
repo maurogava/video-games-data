@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/video-games-data/static/css/main.55301dda.chunk.css",
-    "main.js": "/video-games-data/static/js/main.e3ed3c02.chunk.js",
-    "main.js.map": "/video-games-data/static/js/main.e3ed3c02.chunk.js.map",
+    "main.js": "/video-games-data/static/js/main.3e70bf9e.chunk.js",
+    "main.js.map": "/video-games-data/static/js/main.3e70bf9e.chunk.js.map",
     "runtime-main.js": "/video-games-data/static/js/runtime-main.7da20c2e.js",
     "runtime-main.js.map": "/video-games-data/static/js/runtime-main.7da20c2e.js.map",
     "static/js/2.e8965156.chunk.js": "/video-games-data/static/js/2.e8965156.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.7da20c2e.js",
     "static/js/2.e8965156.chunk.js",
     "static/css/main.55301dda.chunk.css",
-    "static/js/main.e3ed3c02.chunk.js"
+    "static/js/main.3e70bf9e.chunk.js"
   ]
 }
