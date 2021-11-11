@@ -1,0 +1,14 @@
+@import 'styles/mixins';
+
+.withButton {
+  position: relative;
+}
+
+.th {
+  position: sticky;
+  top: 4.4rem;
+  padding: var(--space-lg);
+  text-align: left;
+  background: var(--light-200);
+  border-bottom: 0.2rem solid var(--grey-400);
+}

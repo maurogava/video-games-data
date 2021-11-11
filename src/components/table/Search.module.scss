@@ -1,0 +1,11 @@
+@import 'styles/mixins';
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  label {
+    margin-right: var(--space-sm);
+  }
+}

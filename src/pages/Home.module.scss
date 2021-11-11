@@ -1,0 +1,58 @@
+@import 'styles/mixins';
+
+.table {
+  grid-template-columns: 1.3fr 0.7fr 9rem minmax(18rem, 24rem) 16rem;
+
+  tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+
+    @include sm-up() {
+      display: contents;
+    }
+  }
+}
+
+.title {
+  grid-area: 1 / 1 / 2 / 6;
+
+  @include sm-up() {
+    grid-area: auto;
+  }
+}
+
+.platform {
+  grid-area: 2 / 1 / 3 / 6;
+
+  @include sm-up() {
+    grid-area: auto;
+  }
+}
+
+.score {
+  grid-area: 3 / 1 / 4 / 6;
+
+  @include sm-up() {
+    grid-area: auto;
+    text-align: center;
+  }
+}
+
+.genre {
+  grid-area: 4 / 1 / 5 / 3;
+
+  @include sm-up() {
+    grid-area: auto;
+    text-align: center;
+  }
+}
+
+.choice {
+  grid-area: 4 / 3 / 5 / 5;
+
+  @include sm-up() {
+    grid-area: auto;
+    text-align: center;
+  }
+}

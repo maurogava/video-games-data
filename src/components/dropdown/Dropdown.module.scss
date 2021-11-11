@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  border: 0;
+  background: none;
+  outline: 0;
+  cursor: pointer;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  vertical-align: middle;
+}
+
+.listWrapper {
+  position: absolute;
+  padding: 1.6rem;
+  left: 0;
+  top: 100%;
+  background: var(--light-100);
+  display: none;
+  z-index: 10;
+
+  &.isOpened {
+    display: block;
+  }
+}

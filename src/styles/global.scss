@@ -1,0 +1,71 @@
+@import 'styles/variables';
+@import 'styles/css-variables';
+@import 'styles/mixins';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: var(--fs-default);
+  color: var(--grey-800);
+  background-color: var(--light-200);
+}
+
+.root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 var(--space-lg);
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  padding: var(--space-lg) var(--space-xxl);
+  background-color: var(--green-400);
+  color: var(--light-100);
+  display: inline-block;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: normal;
+  }
+}
+
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  border: 1px solid var(--grey-300);
+  font-size: 1.6rem;
+  padding: var(--space-sm);
+}

@@ -1,0 +1,34 @@
+@import 'styles/mixins';
+
+.header {
+  color: var(--light-000);
+  background-color: var(--light-100);
+  padding: var(--space-md) var(--space-xl);
+  display: flex;
+  align-items: center;
+
+  @include sm-up() {
+    padding: var(--space-lg) var(--space-xl);
+  }
+}
+
+.logo {
+  width: 13rem;
+  height: 3.2rem;
+
+  @include sm-up() {
+    width: 13.4rem;
+    height: 3.8rem;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem;
+  flex: 1 0 auto;
+  background-color: var(--light-200);
+}

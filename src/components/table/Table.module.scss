@@ -1,0 +1,27 @@
+@import 'styles/mixins';
+
+.table {
+  display: block;
+
+  thead {
+    display: none;
+  }
+
+  tbody {
+    display: contents;
+  }
+
+  tr {
+    padding: 1rem;
+  }
+
+  @include sm-up() {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+
+    thead,
+    tr {
+      display: contents;
+    }
+  }
+}
