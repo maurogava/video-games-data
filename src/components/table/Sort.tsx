@@ -50,12 +50,12 @@ const Sort: FC<LoadingProps> = ({ children, columnName, className = '' }) => {
       {children}
       <span
         className={cn(styles.arrow, styles.up, {
-          [styles.upActive]: dir === 'asc' && columnName === colName,
+          [styles.upActive]: dir === 'desc' && columnName === colName,
         })}
       ></span>
       <span
         className={cn(styles.arrow, styles.down, {
-          [styles.downActive]: dir === 'desc' && columnName === colName,
+          [styles.downActive]: dir === 'asc' && columnName === colName,
         })}
       ></span>
     </button>

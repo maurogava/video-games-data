@@ -36,21 +36,21 @@
 }
 
 .up {
-  border-bottom: 0.7rem solid var(--grey-300);
+  border-bottom: 0.7rem solid var(--grey-500);
   margin-top: -0.7rem;
   top: 50%;
 }
 
 .down {
-  border-top: 0.7rem solid var(--grey-300);
+  border-top: 0.7rem solid var(--grey-500);
   margin-top: 0.7rem;
   top: 50%;
 }
 
 .upActive {
-  border-bottom-color: var(--grey-500);
+  border-bottom-color: var(--grey-300);
 }
 
 .downActive {
-  border-top-color: var(--grey-500);
+  border-top-color: var(--grey-300);
 }
